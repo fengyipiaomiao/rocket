@@ -69,4 +69,8 @@ public class QueryNumLocationActivity
     paramView = LocationDAO.getLocation(this, this.num);
     this.tv.setText("归属地:" + paramView);
   }
+
+  public void add(){
+  	System.out.println("hello");
+  }
 }
