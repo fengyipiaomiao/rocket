@@ -1,0 +1,25 @@
+From 491ba85b98601c6008ddbf30dccb7b8310d46c0b Mon Sep 17 00:00:00 2001
+From: pgh <836563696@qq.com>
+Date: Wed, 28 Dec 2016 16:01:45 +0800
+Subject: [PATCH] add a method
+
+---
+ xxx.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/xxx.java b/xxx.java
+index 4576452..9164a50 100644
+--- a/xxx.java
++++ b/xxx.java
+@@ -69,4 +69,8 @@ public class QueryNumLocationActivity
+     paramView = LocationDAO.getLocation(this, this.num);
+     this.tv.setText("归属地:" + paramView);
+   }
++
++  public void add(){
++  	System.out.println("hello");
++  }
+ }
+-- 
+2.10.1.windows.1
+
